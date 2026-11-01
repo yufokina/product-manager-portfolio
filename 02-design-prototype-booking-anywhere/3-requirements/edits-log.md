@@ -1,6 +1,7 @@
 # FRD: AI first draft vs. my edits
 
 **AI tool used:** Claude (Anthropic)
+
 **Prompt:** 
 For my "Anywhere" date-led destination discovery feature (Booking.com),
 help me create a specification and a moodboard.
