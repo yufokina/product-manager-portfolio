@@ -1,7 +1,8 @@
 # FRD: AI first draft vs. my edits
 
 **AI tool used:** Claude (Anthropic)
-**Prompt:** [For my "Anywhere" date-led destination discovery feature (Booking.com),
+**Prompt:** 
+For my "Anywhere" date-led destination discovery feature (Booking.com),
 help me create a specification and a moodboard.
 
 Context: my feature proposal from homework 1 (problem, personas, MVP scope,
@@ -14,7 +15,7 @@ Since this is an already existing app with its own style and users:
   plus a separate "future vision" section that can be more explorative.
 - Specification: a functional requirements doc for that same feature,
   written to a standard engineering could pick up without a walkthrough.
-- Format: Word file for the spec, images for the moodboard.]
+- Format: Word file for the spec, images for the moodboard.
 
 The first AI draft was a 16-page FRD. Below is what I changed while reviewing it, and why. The result is the [6-page FRD](frd.pdf).
 
