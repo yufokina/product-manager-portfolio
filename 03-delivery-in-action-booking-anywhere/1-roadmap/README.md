@@ -6,7 +6,7 @@
 
 | Size | Meaning |
 |---|---|
-| XS | [your definition] |
+| XS | |
 | S | |
 | M | |
 | L | |
