@@ -3,13 +3,13 @@
 Three boards: two for the MVP (keep Booking.com's visual language, reuse its components) and one for the future vision.
 
 ### 1 · Visual language (MVP)
-[Moodboard 1: visual language](Moodboard_1_Visual_language.png)
+![Moodboard 1: visual language](images/moodboard-1-visual-language.jpg)
 
 ### 2 · Components and patterns (MVP)
-[Moodboard 2: components and patterns](Moodboard_2_Components_and_patterns.png)
+![Moodboard 2: components and patterns](images/moodboard-2-components-and-patterns.jpg)
 
 ### 3 · Future vision (not in the MVP)
-[Moodboard 3: future vision](Moodboard_3_Future_vision.png)
+![Moodboard 3: future vision](images/moodboard-3-future-vision.jpg)
 
 ## Brief
 
@@ -36,4 +36,4 @@ Three boards: two for the MVP (keep Booking.com's visual language, reuse its com
 - Written destination descriptions that need a content team (cost) or invent claims.
 - New filters on Screen 3: it reuses the standard filter panel unchanged.
 
-**Future vision (board 3):** start from a mood, a total budget with flexible dates, a map-first view, shared wish lists and personalised matching. All deliberately cut from the MVP and to be validated after the experiment.
+**Future vision (board 3):** start from a mood, a total budget with flexible dates, a map-first view, shared wish lists and personalised matching. All deliberately cut from the MVP and to be validated after launch.
