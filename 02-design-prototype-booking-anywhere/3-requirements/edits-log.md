@@ -1,7 +1,22 @@
 # FRD: AI first draft vs. my edits
 
 **AI tool used:** Claude (Anthropic)
-**Prompt:** [paste or summarise the prompt]
+
+**Prompt:** 
+For my "Anywhere" date-led destination discovery feature (Booking.com),
+help me create a specification and a moodboard.
+
+Context: my feature proposal from homework 1 (problem, personas, MVP scope,
+metrics) and the 3 concept screens (Home with "Anywhere", destination
+results, explore stays) are attached.
+
+Since this is an already existing app with its own style and users:
+- Design direction: evolve the existing design, don't redesign it. Keep
+  Booking.com's visual language, add new UI only where the feature is new,
+  plus a separate "future vision" section that can be more explorative.
+- Specification: a functional requirements doc for that same feature,
+  written to a standard engineering could pick up without a walkthrough.
+- Format: Word file for the spec, images for the moodboard.
 
 The first AI draft was a 16-page FRD. Below is what I changed while reviewing it, and why. The result is the [6-page FRD](frd.pdf).
 
@@ -23,5 +38,4 @@ The first AI draft was a 16-page FRD. Below is what I changed while reviewing it
 
 ## What I learned
 
-- [e.g. AI is fast at structure and coverage, but invents details the product doesn't have (city descriptions, weather data). Every claim needs a data source.]
-- [ ]
+- AI is fast at structure and coverage, but invents details the product doesn't have (city descriptions, weather data). Every claim needs a data source.

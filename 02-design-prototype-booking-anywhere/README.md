@@ -7,7 +7,7 @@ Builds on [01 · Feature proposal](../01-feature-proposal-booking-anywhere/): a 
 | Deliverable | Where |
 |---|---|
 | 1. Moodboards (3) + design brief | [1-moodboard/brief.md](1-moodboard/brief.md) |
-| 2. Clickable prototype of 3 flows, built with AI | **[▶ Open the prototype](https://yufokina.github.io/product-manager-portfolio/02-design-prototype-booking-anywhere/2-prototype/)** · [details](2-prototype/) |
+| 2. Clickable prototype of 3 flows, built with AI | **[Open the prototype](https://yufokina.github.io/product-manager-portfolio/02-design-prototype-booking-anywhere/2-prototype)** · [details](2-prototype/) |
 | 3. Functional requirements doc (FRD) | [PDF](3-requirements/frd.pdf) · [read on GitHub](3-requirements/frd.md) |
 | AI first draft vs. my edits | [3-requirements/edits-log.md](3-requirements/edits-log.md) |
 
@@ -15,7 +15,7 @@ Builds on [01 · Feature proposal](../01-feature-proposal-booking-anywhere/): a 
 
 ## The 3 flows
 
-| 1. Search "Anywhere" | 2. Pick a destination | 3. Explore stays → book |
+| 1. Search "Anywhere" | 2. Pick a destination | 3. Explore stays > book |
 |---|---|---|
 | ![Screen 1](../01-feature-proposal-booking-anywhere/images/screen-1-home-anywhere.jpg) | ![Screen 2](../01-feature-proposal-booking-anywhere/images/screen-2-destination-results.jpg) | ![Screen 3](../01-feature-proposal-booking-anywhere/images/screen-3-explore-stays.jpg) |
 
@@ -35,7 +35,3 @@ Builds on [01 · Feature proposal](../01-feature-proposal-booking-anywhere/): a 
 - **Screen 3 reuses the existing search results page** with three additions (the "via Anywhere" tag, a destination overview, a "back to all destinations" link). Its filter panel is Booking.com's standard one, unchanged.
 - **Destination information comes only from existing data.** Booking.com has no written content about cities, and writing it for ~350 destinations in every language would cost more than the interface. The overview shows a factual summary (what guests mention in reviews, most booked areas, guest rating) and rule-based tags, for display only.
 - **Released to all users, desktop first.** In homework 1 I planned an A/B test; here I chose a launch for everyone to save development work. The trade-off: we measure bookings through "Anywhere" and a before/after check, but can't prove the bookings are incremental.
-
-## What I learned
-
-- [add 2–3 points: what the AI did well, where it was wrong or vague, what you'd do differently]
