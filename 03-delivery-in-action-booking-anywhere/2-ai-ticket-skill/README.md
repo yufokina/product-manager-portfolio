@@ -8,7 +8,7 @@
 
 **What it does:** [one sentence]
 
-**Input:** [what you give it]
+**Input:** [what I give it]
 
 **Steps it follows:**
 1. [ ]
