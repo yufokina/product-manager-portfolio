@@ -2,7 +2,7 @@
 
 ** [Open the clickable prototype](https://yufokina.github.io/product-manager-portfolio/02-design-prototype-booking-anywhere/2-prototype/)** (the file itself: [index.html](index.html))
 
-**Built with:** [Chat GPT]
+**Built with:** Claude
 
 ## Flows
 
