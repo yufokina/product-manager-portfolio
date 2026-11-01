@@ -19,6 +19,7 @@ The first AI draft was a 16-page FRD. Below is what I changed while reviewing it
 | 8 | Feature shown only to a test group (A/B test with a control group) | Released to all users at once; success measured by bookings through "Anywhere" plus a before/after check | Avoids extra work for the dev team. Trade-off: we can't prove the bookings are incremental |
 | 9 | Destinations shown only with at least 3 available stays | Shown with at least 1 available stay (FR-2.1) | The "3" was arbitrary and hid real, bookable options; one house that fits a family is enough |
 | 10 | Empty states with "Clear all filters" | Filters are never cleared automatically; selected filters are listed and removed one at a time; "Edit dates" keeps the current dates | Users shouldn't lose or forget what they selected |
+| 11 | Own sort options: "Best match", "Lowest price", "Most stays" on Screen 2 and "Best match" on Screen 3 | Screen 2 uses Booking.com's own labels where they make sense for destinations (default "Top picks…", price, top reviewed, best reviewed & lowest price); Screen 3 keeps Booking.com's standard sorting unchanged (FR-2.3, FR-3.5) | Familiar wording for users and nothing new to build on Screen 3. Property-level options (stars, distance from downtown, property type, traveller groups) don't apply to destinations |
 
 ## What I learned
 

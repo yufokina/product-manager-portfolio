@@ -56,7 +56,7 @@
 |---|---|---|
 | FR-2.1 | Show every destination with **at least 1 available stay** (R-1) for the exact dates and the whole group. | 2 adults + 2 children → no destination without stays for 4 people. |
 | FR-2.2 | Each card shows: photo, name and country, short data summary (R-4), up to 4 tags (R-5), “{n} stays available”, average price per night, total price for the stay (R-2), and “Explore stays”. | Total = average per night × number of nights. |
-| FR-2.3 | Sorting: Best match (default, R-3), Lowest price, Most stays. | “Lowest price” → cheapest destination first. |
+| FR-2.3 | Sorting, with Booking.com’s labels: the default sort uses the same label as Booking.com’s default for the trip length (e.g. “Top picks for long stays”) and ranks by R-3; plus Price (lowest first), Price (highest first), Top reviewed (R-4 guest rating), Best reviewed & lowest price. Property-level options (stars, distance from downtown, property type, traveller groups) are not offered. | “Price (lowest first)” → cheapest destination first. |
 | FR-2.4 | Filters: budget per night, property type, popular filters (e.g. free cancellation, pool). The list and the URL update without a page reload. | Budget max €80 → stay counts include only stays up to €80 per night. |
 | FR-2.5 | 20 destinations are shown; “Show more” loads the next 20. | After “Show more”, 40 cards; scroll position kept. |
 | FR-2.6 | *(Should)* A map view shows each destination as a pin with its price. | Clicking a pin opens the same destination as its card. |
@@ -75,7 +75,7 @@ Screen 3 is Booking.com’s **existing search results page** for one destination
 | FR-3.2 | [2] Breadcrumb: Home › Explore anywhere › Results › {Destination}. | “Results” opens Screen 2 with the same filters. |
 | FR-3.3 | [3] Destination overview: photo, name, a summary of up to 3 lines (guests often mention · most booked areas · guest rating, R-4), up to 4 tags (R-5) and the line “Summary based on Booking.com bookings, property data and guest reviews”. A line without enough data is hidden. | Fewer than 50 reviews → “Guests often mention” and “Guest rating” are hidden. |
 | FR-3.4 | [4] “Back to all destinations” returns to Screen 2 with the same filters and scroll position. | Scroll to card 30, open, go back → still at card 30. |
-| FR-3.5 | [5] Booking.com’s **standard filter panel, unchanged**. Filters chosen on Screen 2 are already applied. | Budget €150 + Apartments on Screen 2 → both pre-selected; all standard filters available. |
+| FR-3.5 | [5] Booking.com’s **standard filter panel and sorting, unchanged**. Filters chosen on Screen 2 are already applied. | Budget €150 + Apartments on Screen 2 → both pre-selected; all standard filters available. |
 | FR-3.6 | [6] Existing property cards, only for stays that fit the whole group, with the **total price for the stay**. “See availability” opens the existing property page; `src=anywhere` is kept until booking (R-6). | A booking made this way is recorded with source “anywhere”. |
 
 ## 6. Business rules
@@ -84,7 +84,7 @@ Screen 3 is Booking.com’s **existing search results page** for one destination
 |---|---|
 | R-1 | **Available stay:** a property with at least one room offer that can be booked for the exact dates and fits all guests. |
 | R-2 | **Destination price:** for each available stay, take its cheapest offer for the whole stay (incl. taxes). **Total** = the average of these. **Per night** = total ÷ number of nights. |
-| R-3 | **Best match:** a simple score from availability (more stays), price (cheaper) and popularity, weighted 40 / 30 / 30 and adjustable. No personalisation. |
+| R-3 | **Default ranking (“Top picks…”):** a simple score from availability (more stays), price (cheaper) and popularity, weighted 40 / 30 / 30 and adjustable. No personalisation. |
 | R-4 | **Destination summary, from existing data only:** guests often mention = top 3 topics in reviews (min. 50 reviews); most booked areas = top 3 districts by bookings; guest rating = average score (min. 50 reviews). Fixed sentence templates, no written or AI-generated text. Updated every night. |
 | R-5 | **Tags:** shown when a simple rule is met, e.g. Beaches (≥ 20% of stays near a beach), Great food (food mentioned in ≥ 15% of reviews), Family-friendly (≥ 25% of stays with family rooms). Max 4, for display only (not filters). No weather tags. |
 | R-6 | **Attribution:** `src=anywhere` is carried from Screen 2 to the booking, and the booking is saved with source “anywhere”. |
