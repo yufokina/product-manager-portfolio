@@ -38,4 +38,4 @@ Builds on [01 · Feature proposal](../01-feature-proposal-booking-anywhere/): a 
 
 ## What I learned
 
-- [add 2–3 points: what the AI did well, where it was wrong or vague, what you'd do differently]
+- [add 2–3 points: what the AI did well, where it was wrong or vague, what I'd do differently]
