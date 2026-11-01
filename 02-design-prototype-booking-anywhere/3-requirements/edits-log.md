@@ -23,4 +23,3 @@ The first AI draft was a 16-page FRD. Below is what I changed while reviewing it
 ## What I learned
 
 - [e.g. AI is fast at structure and coverage, but invents details the product doesn't have (city descriptions, weather data). Every claim needs a data source.]
-- [ ]
