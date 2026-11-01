@@ -42,7 +42,7 @@ The prototype should demonstrate the following three screens:
 - Property cards with ratings and total prices.
 - Existing booking journey entry point.
 
-**Interaction requirements**:
+## Interaction requirements**:
 - Make navigation between all three screens clickable.
 - Preserve dates, guests and selected filters when navigating.
 - Simulate property selection and preserve the src=anywhere attribution.
