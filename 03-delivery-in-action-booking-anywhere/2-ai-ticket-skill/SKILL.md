@@ -57,5 +57,5 @@ Out of scope
 
 1. Summary: number of epics and tickets, and the suggested build order.
 2. Epics, each with its tickets (template above).
-3. Coverage table: source ID → ticket(s).
-4. Open questions: question → which ticket it blocks → who should answer.
+3. Coverage table: source ID > ticket(s).
+4. Open questions: question > which ticket it blocks > who should answer.
