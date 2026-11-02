@@ -51,6 +51,7 @@ Out of scope
 - **Unknowns become spikes.** If a ticket depends on an open technical question, create a short Spike ticket first (time-boxed, with a clear question to answer).
 - **Keep IDs traceable.** Every ticket lists its source IDs; every source ID appears in the coverage table.
 - **Plain language.** Short sentences; a new developer should understand each ticket on its own.
+- **No emojies.** 
 
 ## Output format
 
