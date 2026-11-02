@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **The skill** | [SKILL.md](SKILL.md): the actual instructions the AI follows |
-| **Its output on "Anywhere"** | [tickets.md](tickets.md): 8 epics, 23 tickets, coverage table, open questions |
+| **Its output on "Anywhere"** | [tickets.md](tickets.md): 3 example tickets and the open questions the skill raised |
 
 ## The skill: `spec-to-tickets`
 
@@ -42,7 +42,7 @@
 
 ## Output on the "Anywhere" spec
 
-Run on the [6-page FRD](../../02-design-prototype-booking-anywhere/3-requirements/frd.pdf) and the [roadmap](../1-roadmap/): **8 epics, 23 tickets**, including 2 spikes for the open technical questions. The coverage table shows every requirement is covered. The skill also found 3 gaps the spec doesn't answer (photo source, the definition of "popularity", the tag on returning visits). See [tickets.md](tickets.md).
+Run on the [6-page FRD](../../02-design-prototype-booking-anywhere/3-requirements/frd.pdf) and the [roadmap](../1-roadmap/), the skill produced **8 epics and 23 tickets**, covering every requirement. [tickets.md](tickets.md) shows 3 examples, one of each type (Spike, Story, Task). The skill also found 3 gaps the spec doesn't answer (photo source, the definition of "popularity", the tag on returning visits).
 
 ## What I changed in the output and why
 
