@@ -57,8 +57,8 @@ Source: section 7 (rows 1–4)
 
 | Question | Blocks | Who answers |
 |---|---|---|
-| Can the availability system check ~350 destinations at once? | E1-1 → all of E1, E3, E5 | Search engineering |
-| Does Booking.com group review text by topic in every language? | E2-1 → E2-3, E2-4 | Data / reviews team |
+| Can the availability system check ~350 destinations at once? | E1-1 > all of E1, E3, E5 | Search engineering |
+| Does Booking.com group review text by topic in every language? | E2-1 > E2-3, E2-4 | Data / reviews team |
 | Should "Anywhere" be pre-selected, or only offered as the first option? | E7-1 | Product |
 | Where do the destination photos come from, and who picks them? *(not in the spec)* | E5-1, E6-2 | Product + Design |
 | What counts as "popularity" in the default ranking (R-3)? *(not defined in the spec)* | E3-1 | Product + Data |
