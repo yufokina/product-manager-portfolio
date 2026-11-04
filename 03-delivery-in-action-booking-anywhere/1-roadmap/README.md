@@ -33,18 +33,42 @@ Sizes are relative, for one cross-functional team. They include uncertainty, not
 
 ```mermaid
 flowchart LR
-  A["1 · Availability & price engine (XL)"] --> C["3 · Ranking & sorting (M)"]
-  A --> E["5 · Screen 2: destination results (L)"]
-  B["2 · Summary & tags job (L)"] --> E
+  subgraph P1["Phase 1 · Data (build first)"]
+    direction TB
+    A["1 · Availability & price engine (XL)"]
+    B["2 · Summary & tags job (L)"]
+    C["3 · Ranking & sorting (M)"]
+    D["4 · Source tracking to booking (M)"]
+  end
+  subgraph P2["Phase 2 · Screens"]
+    direction TB
+    E["5 · Screen 2: destination results (L)"]
+    F["6 · Screen 3: destination stays (M)"]
+  end
+  subgraph P3["Phase 3 · Opening (last)"]
+    direction TB
+    G["7 · Screen 1 entry + analytics (S)"]
+  end
+  subgraph P4["Optional"]
+    H["8 · Map view (M)"]
+  end
+  A --> C
+  A --> E
+  B --> E
   C --> E
-  B --> F["6 · Screen 3: destination stays (M)"]
-  D["4 · Source tracking to booking (M)"] --> F
+  B --> F
+  D --> F
   E --> F
-  E --> G["7 · Screen 1 entry + analytics (S)"]
+  E --> G
   F --> G
-  A --> H["8 · Map view (M, optional)"]
+  A --> H
   E --> H
+  style P1 fill:#e8f1ff,stroke:#006ce4
+  style P2 fill:#fff6db,stroke:#ffb700
+  style P3 fill:#e7f5ec,stroke:#008234
+  style P4 fill:#f2f2f2,stroke:#999,stroke-dasharray: 4 4
 ```
+Arrows mean "needs": for example, Screen 2 (5) needs the engine (1). Read from left to right: data first, then screens, then the entry point that lets users in.
 
 ## Why this order
 
