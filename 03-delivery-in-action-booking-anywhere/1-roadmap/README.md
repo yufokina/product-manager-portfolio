@@ -26,7 +26,7 @@ Sizes are relative, for one cross-functional team. They include uncertainty, not
 | 4 | **Source tracking to booking**: carry `src=anywhere` from Screen 2 to the booking and save it on the booking record (R-6) | **M** | Checkout / booking team | Small code, but it touches another team's booking flow. Start early so it's ready at launch; without it we can't measure the main metric. |
 | 5 | **Destination results page (Screen 2)**: destination cards, filters, "Show more", empty and error states (FR-2.1–2.7, section 7) | **L** | 1, 2, 3 | The main new screen. Can be built against test data while 1–3 are in progress, but can only be finished once they work. |
 | 6 | **Destination stays page (Screen 3)**: reuse the existing results page, add "via Anywhere" tag, destination overview and "Back to all destinations" (FR-3.1–3.6) | **M** | 2, 4, 5 | Mostly reuse of an existing page, so medium. Needs the summary (#2), tracking (#4) and the way in from Screen 2 (#5). |
-| 7 | **"Anywhere" entry in search (Screen 1)** and **analytics events** (FR-1.1–1.3, section 8) | **S** | 5, 6 | Easy, but it's the door to the feature. We open it last, so users never reach a half-built flow. Events are added to screens that already exist by then. |
+| 7 | **"Anywhere" entry in search (Screen 1)** and **analytics events** (FR-1.1–1.3, section 8) | **S** | 5, 6 | Easy, but it's the door to the feature. We open it last, so users never reach a half-built flow. |
 | 8 | **Map view** (FR-2.6, *Should*) | **M** | 1, 5 | Nice to have. Last, and the first thing to cut if time runs out. |
 
 ## Dependencies
